@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+    window.onload = function() {
+      setTimeout(function() {
+        document.getElementById('myIframe').classList.add('loaded');
+        document.querySelector('.loader-container').style.display = 'none';
+      }, 200); 
+    };
+</script>
+<body>
+    <body>
+
+        <div class="loader-container">
+          <div class="loader"></div>
+        </div>
+        
+        <iframe id="myIframe"      src="https://livechatgroup007.vercel.app/" frameborder="0"></iframe>
+        
+      </body>
+</body>
+</html>
